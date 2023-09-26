@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Weather Forecast & Real Time</h1>
+  </header>
+  <div class="content">
+    <div class="navigation-bar">
+      <div class="search-field">
+        <input type="text" name="city-name" id="city-name" placeholder="Search weather forecast of your city">
+        <button onclick="searchWeather('Jakarta')">search</button>
+      </div>
+    </div>
+
+   <div id="content">
+    <div id="error-message"><h2>MAAF DATA YANG ANDA CARI TIDAK ADA.</h2></div>
+    <div id="city-description"></div>
+    <div id="displayflex">
+        <div id="current-weather"></div>
+        <div id="current-time"></div> 
+    </div>
+    <div id="weather-forecast"></div>
+   </div> 
+  </div>
+
+  <script src="script.js">
+
+    
+
+  </script>
+</body>
+</html>
